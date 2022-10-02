@@ -109,7 +109,6 @@ public class GUI implements ActionListener {
 
   public GUI() {
 
-
     this.frame = new JFrame("GUI-Übung");
     // Mainpanel
     this.contentPane = new JPanel();
@@ -133,6 +132,7 @@ public class GUI implements ActionListener {
 
 
     // Objecte
+    //hier werden die Objecte definiert 
     this.l1 = new JButton("Left1");
     this.l2 = new JButton("Left2");
     this.l3 = new JButton("Left3");
